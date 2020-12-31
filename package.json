@@ -1,0 +1,20 @@
+{
+  "name": "rent-api",
+  "version": "1.0.0",
+  "description": "Rent API",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest --watch tests",
+    "start": "sls offline --stage dev start"
+  },
+  "author": "Shreya Kale",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^3.33.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "mongoose": "^5.8.7",
+    "serverless": "^1.61.0"
+  }
+}
